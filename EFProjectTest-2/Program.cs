@@ -28,7 +28,7 @@ namespace EFProjectTest_2
             //var customer2 = db.Customers.OrderByDescending(c=>c.CustomerId).LastOrDefault(e => e.State == "NY");
             //Console.WriteLine(customer2.FirstName);
 
-
+             
 
             var customer = db.Customers.SingleOrDefault(e => e.CustomerId == 125125); // (1 , 0 , > 1 )
             if (customer != null )
